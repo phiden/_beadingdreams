@@ -1,0 +1,304 @@
+/*
+Theme Name: Beading Dreams
+Theme URI: 
+Description: Theme for BeadingDreams.com (based on Starkers)
+Version: 1.0
+Author: Sophia Dengo
+Author URI: http://sophiadengo.com
+Tags: 
+*/
+
+@import "css/reset.css";
+@import "css/typography.css";
+@import "css/layout.css";
+
+html {
+
+}
+
+body {
+
+	background-image:url("/images/bg.gif");
+	
+}
+
+#container {
+
+	margin:30px auto;
+	width:1000px;
+	background:white;
+	padding:20px 20px 20px 20px;
+	overflow:auto;
+}
+
+img {
+	
+	margin-top:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+li {
+
+	margin-bottom:5px;
+}
+
+#standard_list li {
+	
+	padding-left:15px;
+	display:list-item;
+	list-style:circle inside;
+}
+
+/*FONT STYLES*/
+
+body, p {
+
+	font-family:Arial, sans-serif;
+	color:#424242;
+	font-size:14px;
+	line-height:18px;
+}
+
+h1, #nav {
+
+	font-family:Georgia, Times New Roman, serif;
+	font-size:18px;
+	font-weight:normal;
+	margin-bottom:10px;
+}
+
+a {
+
+	color:#f9038a;
+	text-decoration: none;
+}
+
+/*HEADER STYLES*/
+
+#logo, #nav {
+
+	float:left;
+	width:825px;
+}
+
+#nav {
+
+	padding-top:20px;
+	width:700px;
+}
+
+#project350 {
+
+	float:right;
+	padding-left:15px;
+	overflow:hidden;
+	width:150px;
+}
+
+#header {
+
+	overflow:auto;
+	margin-bottom:20px;
+	border-bottom:#e3e3e3 dashed 1px;
+	clear:both;
+}
+
+#nav ul li a {
+
+	color:#424242;
+}
+
+#nav ul li a.active {
+
+	color:#f9038a;
+	text-decoration: none;
+}
+
+#nav ul li {
+
+	display:inline;
+	margin-right:40px;
+}
+
+/*END HEADER STYLES*/
+
+/*MAIN NAVIGATION*/
+
+/*END MAIN NAV*/
+
+/*LEFT RAIL*/
+
+#sidebar {
+
+	float:left;
+	width:255px;
+	margin-right:15px;
+	padding-right:15px;
+	border-right:#e3e3e3 dashed 1px;
+}
+
+.sidebar_section {
+
+	margin-bottom:20px;
+	
+}
+
+#mailing {
+
+	margin-top:35px;
+	
+}
+.sidebar_section .ai1ec-container {
+
+	visibility:hidden;
+	height:0;
+	width:0;
+}
+/*END LEFT RAIL*/
+
+/*FOOTER*/
+#footer {
+
+	clear:both;
+	text-align:center;
+	margin-bottom:20px;
+}
+
+#credit {
+
+	font-size:6pt;
+	
+}
+/*HOMEPAGES*/
+
+#main_content {
+
+	overflow:auto;
+	width:690px;
+}
+
+#main_content_narrow, .calendar_event {
+
+/*for pages that can use a little more space*/
+	overflow:auto;
+	width:650px;
+	padding-left:20px;
+
+}
+
+#main_content_narrow p {
+
+	margin-bottom:20px;
+	
+}
+
+#home_banner {
+
+	height:auto;
+	background-color:#f9b2d6;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-bottom:15px;
+	text-align:center;
+	
+}
+
+
+#home_featured_class {
+
+	clear:right;
+	height:auto;
+	overflow:auto;
+	
+}
+
+ul#home_classes, ul#home_announcements {
+
+	margin-top:15px;
+	
+}
+
+
+ul#home_announcements  li {
+
+	vertical-align: top;
+	width:175px;
+	margin-left:4px;
+	margin-right:4px;
+	
+	padding:12px 12px 12px 12px;
+	
+	display:inline-block;
+	height:275px;
+	overflow:hidden;
+	
+	
+	border:10px solid #e3e3e3;
+}
+
+ul#home_classes  li {
+
+	vertical-align: top;
+	width:215px;
+	margin-left:5px;
+	margin-right:5px;
+	display:inline-block;
+	height:auto;
+	overflow:hidden;
+
+} 
+
+.in_body {
+
+	margin-top:15px;
+}
+
+/*CLASSES*/
+
+#class_categories{
+
+	margin-top:15px;
+	margin-bottom:15px;
+	width:100%;
+	
+}
+
+ul#class_sidebar {
+
+	height:130px;
+	overflow: hidden;
+}
+
+ul#class_sidebar li {
+
+	display:inline-block;
+	width:225px;
+	vertical-align: top;
+}
+
+ul#class_list li {
+
+	display:block;
+	display:list-item;
+}
+
+.first {
+
+	margin-right:7px;
+}
+
+.active_sub {
+
+	color:#424242;
+	text-decoration: none;
+	font-style:italic;
+
+}
+
+/*CALENDAR*/
+
+.eme-calendar-full {
+
+	margin-top:25px;
+}
