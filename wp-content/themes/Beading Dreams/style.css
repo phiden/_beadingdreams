@@ -61,6 +61,43 @@ h5,
 h6 					{ font-weight:bold; /* This helps to identify headings at the initial build stage, but you should write something more precise later on */ }
 
 /* ---------------------------------------------------------------------------------------------------------- 
+02.5 setting up for an eventual complete overhaul; 2014 styles added here for Beading Dreams ----------------
+---------------------------------------------------------------------------------------------------------- */
+
+.current_page_item a{
+	
+	color:#333 !important;
+} 
+
+
+.sidebar-section {
+	
+	height:auto;
+	overflow: auto;
+	clear:both;
+}
+
+#facebook {
+	
+	height:auto;
+	overflow: auto;
+}
+
+#facebook-icon {
+	
+	float:left;
+	margin:0;
+}
+
+#facebook-link {
+	
+	float:right;
+	vertical-align: middle;
+	margin-top:7px;
+	padding-right:23px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- 
 03 Media queries (using a mobile-first approach) ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 

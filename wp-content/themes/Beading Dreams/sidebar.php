@@ -29,8 +29,8 @@
 	
 	</div>
 	
-	<div class="sidebar_section">
-	<img src="/images/facebook.jpg" align="left"/><h1><a href="https://www.facebook.com/pages/Beading-Dreams/257101560041">visit us on Facebook</a></h1>
+	<div class="sidebar_section" id='facebook'>
+	<img id='facebook-icon' src="/images/facebook.jpg"/><h1><a id='facebook-link' href="https://www.facebook.com/pages/Beading-Dreams/257101560041">visit us on Facebook</a></h1>
 	</div>
 	
 	<div class="sidebar_section" id="mailing">
