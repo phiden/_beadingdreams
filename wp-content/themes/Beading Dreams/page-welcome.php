@@ -1,23 +1,26 @@
 <?php
 /**
- * Template Name: Homepage
+ * Template name: welcome
+ * The template for displaying all pages.
  *
- * BeadingDreams' homepage layout
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site will use a
+ * different template.
  *
- * The "Template Name:" bit above allows this to be selectable
- * from a dropdown menu on the edit page screen.
+ * Please see /external/starkers-utilities.php for info on Starkers_Utilities::get_template_parts()
  *
- * @package WordPress
- * @subpackage Starkers
- * @since Starkers 3.0
+ * @package 	WordPress
+ * @subpackage 	Starkers
+ * @since 		Starkers 4.0
  */
+?>
+<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
-get_header(); ?>
-
-
+<?php get_sidebar(); ?>
 
 <div id="main_content">
-<?php get_sidebar(); ?>
+
 <div id="home_banner">
 
 	<?php query_posts('cat=22&posts_per_page=1') ?>
@@ -84,5 +87,4 @@ get_header(); ?>
 </div>
 </div><!-- end main_content-->
 
-
-<?php get_footer(); ?>
+<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>
