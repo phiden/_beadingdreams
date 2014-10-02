@@ -63,6 +63,10 @@ h6 					{ font-weight:bold; /* This helps to identify headings at the initial bu
 /* ---------------------------------------------------------------------------------------------------------- 
 02.5 setting up for an eventual complete overhaul; 2014 styles added here for Beading Dreams ----------------
 ---------------------------------------------------------------------------------------------------------- */
+p {
+	
+	margin-bottom:10px;
+}
 
 .current_page_item a{
 	
@@ -81,6 +85,8 @@ h6 					{ font-weight:bold; /* This helps to identify headings at the initial bu
 	
 	height:auto;
 	overflow: auto;
+	border-bottom: #e3e3e3 dashed 1px;
+	padding-bottom:30px;
 }
 
 #facebook-icon {
@@ -95,6 +101,43 @@ h6 					{ font-weight:bold; /* This helps to identify headings at the initial bu
 	vertical-align: middle;
 	margin-top:7px;
 	padding-right:23px;
+}
+
+#gift-certificates {
+	
+	padding-top:30px;
+	padding-bottom:50px;
+	margin-bottom:30px;
+	border-top:#e3e3e3 dashed 1px;
+	border-bottom: #e3e3e3 dashed 1px;
+}
+
+#paypal {
+	
+	float:left;
+}
+
+#paypal-button {
+	
+	margin-top:5px;
+	float:right;
+}
+
+.menu {
+	
+	margin-bottom:30px;
+	padding-bottom:20px;
+	border-bottom: #e3e3e3 dashed 1px;
+}
+
+.menu li {
+	
+	display:inline-block;
+	font-family: Georgia, Times New Roman, serif;
+	font-size: 15px;
+	font-weight: normal;
+	margin-right: 40px;
+	padding-top:30px;
 }
 
 /* ---------------------------------------------------------------------------------------------------------- 
