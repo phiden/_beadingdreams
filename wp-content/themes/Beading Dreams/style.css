@@ -140,6 +140,66 @@ p {
 	padding-top:30px;
 }
 
+#main_content h1 {
+
+	text-align: center;
+}
+
+#parties-call-to-action {
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	
+	border:2px solid #f9038a;	
+	color:#f9038a;
+	
+	text-align: center;
+	padding:20px;
+	margin-bottom:30px;
+	
+}
+
+.parties-col {
+	
+	width:100%;
+	height:auto;
+	overflow: auto;
+	padding-bottom:30px;
+
+}
+
+.parties-col img {
+	
+	width:45%;
+	height:auto;
+	
+	float:left;
+	
+	margin:0;
+	padding:0;
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	
+	border:2px solid #f9038a;
+	
+}
+
+.parties-col .standard_list,
+.parties-col h2 {
+	
+	width:50%;
+	float:right;
+}
+
+.parties-col h2 {
+	
+	margin-bottom:15px;
+}
+
+
 /* ---------------------------------------------------------------------------------------------------------- 
 03 Media queries (using a mobile-first approach) ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */

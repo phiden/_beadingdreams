@@ -39,7 +39,7 @@ li {
 	margin-bottom:5px;
 }
 
-#standard_list li {
+.standard_list li {
 	
 	padding-left:15px;
 	display:list-item;
@@ -217,7 +217,7 @@ ul#home_classes, ul#home_announcements {
 }
 
 
-ul#home_announcements  li {
+ul#home_announcements li {
 
 	vertical-align: top;
 	width:175px;
@@ -234,17 +234,29 @@ ul#home_announcements  li {
 	border:10px solid #e3e3e3;
 }
 
-ul#home_classes  li {
+ul#home_classes li {
 
-	vertical-align: top;
-	width:215px;
-	margin-left:5px;
 	margin-right:5px;
-	display:inline-block;
+	display:list-item;
+	list-style: none;
 	height:auto;
 	overflow:hidden;
 
 } 
+
+#home_classes img {
+	
+	width:30%;
+	height:auto;
+	float:left;
+	margin-top:0;
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	
+	border:2px solid #f9038a;	
+}
 
 .in_body {
 

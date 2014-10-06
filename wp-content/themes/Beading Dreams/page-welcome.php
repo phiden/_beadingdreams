@@ -20,7 +20,7 @@
 
 	<section id="announcements">
 	
-		Announcements here
+		<h1>Shop Announcements</h1>
 		<?php query_posts('category_name=home-banner&posts_per_page=1') ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 		
@@ -33,7 +33,7 @@
 
 	<section id="events">
 	
-		Events here 
+		<h1>Events!</h1>
 		<?php query_posts('category_name=upcoming-event&posts_per_page=1') ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 		
@@ -46,14 +46,14 @@
 	
 	<section id="classes">
 	
-		classes here
+		<h1>Classes at Beading Dreams</h1>
 	
 		<ul id="home_classes">
 			<?php query_posts('category_name=homepage-class&posts_per_page=3') ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 			
 			<li>
-				<h1><?php the_title() ?></h1>
+				<h2><?php the_title() ?></h2>
 				<?php the_content() ?>
 			</li>
 			<?php endwhile; ?>
@@ -63,11 +63,11 @@
 	
 	<section id="design-repair">
 	
-		Design &amp; repair here
+		<h1>Design &amp; Repair</h1>
 		<?php query_posts('category_name=design-repair&posts_per_page=1') ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 		
-			<h1><?php the_title() ?></h1>
+			<h2><?php the_title() ?></h2>
 			<?php the_content() ?>
 	
 		<?php endwhile; ?>
@@ -75,17 +75,6 @@
 	</section>
 	
 	
-	<div id="home_banner">
-	
-		<?php query_posts('cat=home-banner&posts_per_page=1') ?>
-		<?php while ( have_posts() ) : the_post(); ?>
-		
-		<h1><?php the_title() ?></h1>
-		<?php the_content() ?>
-	
-		<?php endwhile; ?>
-	
-	</div>
 	
 	<?php wp_reset_query(); ?>
 	
