@@ -32,8 +32,8 @@ nav,
 li					{ position:relative; /* For absolutely positioning elements within containers (add more to the list if need be) */ }
 .group:after 		{ display:block; height:0; clear:both; content:"."; visibility:hidden; /* For clearing */ }
 body 				{ background:#fff; /* Don't forget to style your body to avoid user overrides */ }
-::-moz-selection 	{ background:#f9038a; color:#fff; }
-::selection 		{ background:#f9038a; color:#fff; }
+::-moz-selection 	{ background:#fa2789; color:#fff; }
+::selection 		{ background:#fa2789; color:#fff; }
 
 /* ---------------------------------------------------------------------------------------------------------- 
 02 Typography -----------------------------------------------------------------------------------------------
@@ -53,12 +53,6 @@ body,
 input,
 textarea 			{ /* We strongly recommend you declare font-weight using numerical values, but check to see which weights you're exporting first */ }
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
-h6 					{ font-weight:bold; /* This helps to identify headings at the initial build stage, but you should write something more precise later on */ }
 
 /* ---------------------------------------------------------------------------------------------------------- 
 02.5 setting up for an eventual complete overhaul; 2014 styles added here for Beading Dreams ----------------
@@ -66,6 +60,37 @@ h6 					{ font-weight:bold; /* This helps to identify headings at the initial bu
 p {
 	
 	margin-bottom:10px;
+}
+
+h1 {
+	
+	font-size:24px;
+	line-height: normal;
+}
+
+h2 {
+	
+	font-family: 'Satisfy', Georgia, Times New Roman, serif;
+	font-size:20px;
+}
+
+img {
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	
+	border:2px solid #fa2789;	
+	color:#fa2789;
+}
+
+#logo a img,
+#project350 a img {
+	
+	border:0;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
 }
 
 .current_page_item a{
@@ -87,19 +112,24 @@ p {
 	overflow: auto;
 	border-bottom: #e3e3e3 dashed 1px;
 	padding-bottom:30px;
+	
+	
 }
 
 #facebook-icon {
 	
 	float:left;
 	margin:0;
+	border:0;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
 }
 
 #facebook-link {
 	
 	float:right;
 	vertical-align: middle;
-	margin-top:7px;
 	padding-right:23px;
 }
 
@@ -133,10 +163,9 @@ p {
 .menu li {
 	
 	display:inline-block;
-	font-family: Georgia, Times New Roman, serif;
 	font-size: 15px;
 	font-weight: normal;
-	margin-right: 40px;
+	margin-right: 30px;
 	padding-top:30px;
 }
 
@@ -151,12 +180,15 @@ p {
 	-moz-border-radius: 20px;
 	border-radius: 20px;
 	
-	border:2px solid #f9038a;	
-	color:#f9038a;
+	border:2px solid #fa2789;	
+	color:#fa2789;
 	
 	text-align: center;
 	padding:20px;
 	margin-bottom:30px;
+	
+	font-family: 'Satisfy', Georgia, Times New Roman, serif;
+	font-size:22px;
 	
 }
 
@@ -183,7 +215,7 @@ p {
 	-moz-border-radius: 20px;
 	border-radius: 20px;
 	
-	border:2px solid #f9038a;
+	border:2px solid #fa2789;
 	
 }
 
